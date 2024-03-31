@@ -1,0 +1,1660 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-9145144023632458027
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Test.bank
+  m_EditorClassIdentifier: 
+  Path: ProjectFMOD/JapaneseGodFMOD/Build/Desktop/Test.bank
+  Name: Test
+  StudioPath: bank:/Test
+  lastModified: 638474803814801475
+  FileSizes:
+  - Name: Desktop
+    Value: 5526752
+  Exists: 1
+--- !u!114 &-8986486506556250971
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Menu_Button
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Menu_Button
+  Guid:
+    Data1: -1226647570
+    Data2: 1196007260
+    Data3: 125820083
+    Data4: 985067926
+  Banks:
+  - {fileID: 5505285307271191364}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 680
+--- !u!114 &-8930970577012397470
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/Interactive_Music
+  m_EditorClassIdentifier: 
+  Path: event:/Music/Interactive_Music
+  Guid:
+    Data1: 1428340466
+    Data2: 1161395664
+    Data3: -109946991
+    Data4: 1775027179
+  Banks:
+  - {fileID: 4225110734259327676}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 9166037293845704665}
+  - {fileID: -7841210462254226376}
+  - {fileID: 4532953727104662629}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 324545
+--- !u!114 &-8756320055041281923
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Temple_Fire 3D 3
+  m_EditorClassIdentifier: 
+  Path: event:/Temple_Fire 3D 3
+  Guid:
+    Data1: 1594007723
+    Data2: 1080520564
+    Data3: -180821883
+    Data4: -2064079365
+  Banks:
+  - {fileID: -9145144023632458027}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 3789064631367068421}
+  - {fileID: -5901701270167407921}
+  MinDistance: 1
+  MaxDistance: 60
+  Length: 24670
+--- !u!114 &-8729320509133124332
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/Level_Music
+  m_EditorClassIdentifier: 
+  Path: event:/Music/Level_Music
+  Guid:
+    Data1: 234687662
+    Data2: 1112661376
+    Data3: -715477847
+    Data4: -1620174812
+  Banks:
+  - {fileID: 4225110734259327676}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 87272
+--- !u!114 &-8710668528370125136
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/Lose_Stinger
+  m_EditorClassIdentifier: 
+  Path: event:/Music/Lose_Stinger
+  Guid:
+    Data1: -1386469875
+    Data2: 1084627766
+    Data3: 1677855112
+    Data4: -924180990
+  Banks:
+  - {fileID: 4225110734259327676}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 8181
+--- !u!114 &-8624124176533558034
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Temple_Fire 3D 4/Temples Off
+  m_EditorClassIdentifier: 
+  Name: Temples Off
+  StudioPath: 
+  Min: 0
+  Max: 5
+  Default: 0
+  ID:
+    data1: 2159653708
+    data2: 987023635
+  Type: 1
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-8559141746244257482
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Temple_Fire 3D 2
+  m_EditorClassIdentifier: 
+  Path: event:/Temple_Fire 3D 2
+  Guid:
+    Data1: 2061613109
+    Data2: 1243045729
+    Data3: -398857028
+    Data4: -1827219544
+  Banks:
+  - {fileID: -9145144023632458027}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -8324321457197232801}
+  - {fileID: 2132964815654454508}
+  MinDistance: 1
+  MaxDistance: 60
+  Length: 24670
+--- !u!114 &-8324321457197232801
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Temple_Fire 3D 2/Temples Off
+  m_EditorClassIdentifier: 
+  Name: Temples Off
+  StudioPath: 
+  Min: 0
+  Max: 5
+  Default: 0
+  ID:
+    data1: 2159653708
+    data2: 987023635
+  Type: 1
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-7841210462254226376
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Interactive_Music/Game State
+  m_EditorClassIdentifier: 
+  Name: Game State
+  StudioPath: 
+  Min: 0
+  Max: 3
+  Default: 0
+  ID:
+    data1: 2281162550
+    data2: 441876349
+  Type: 1
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-7547099531152589178
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Temple_Off 5/Temples Off
+  m_EditorClassIdentifier: 
+  Name: Temples Off
+  StudioPath: 
+  Min: 0
+  Max: 5
+  Default: 0
+  ID:
+    data1: 2159653708
+    data2: 987023635
+  Type: 1
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-7461127096381103113
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: ProjectFMOD/JapaneseGodFMOD/Build/Desktop/Master.strings.bank
+  Name: Master.strings
+  StudioPath: bank:/Master.strings
+  lastModified: 638474803813765566
+  FileSizes:
+  - Name: Desktop
+    Value: 2260
+  Exists: 1
+--- !u!114 &-7432701307102624925
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Temple_Off 4
+  m_EditorClassIdentifier: 
+  Path: event:/Temple_Off 4
+  Guid:
+    Data1: 1230866483
+    Data2: 1194225918
+    Data3: -999617127
+    Data4: 1763026710
+  Banks:
+  - {fileID: -9145144023632458027}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters:
+  - {fileID: -5067131560524411601}
+  - {fileID: -3659791368096425707}
+  MinDistance: 1
+  MaxDistance: 600
+  Length: 8250
+--- !u!114 &-6720140666702292481
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Temple_Off 3/Temples Off
+  m_EditorClassIdentifier: 
+  Name: Temples Off
+  StudioPath: 
+  Min: 0
+  Max: 5
+  Default: 0
+  ID:
+    data1: 2159653708
+    data2: 987023635
+  Type: 1
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-6558367291175229736
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Temple_Fire 3D 1/Level State
+  m_EditorClassIdentifier: 
+  Name: Level State
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 179770722
+    data2: 858155409
+  Type: 2
+  IsGlobal: 1
+  Labels:
+  - All Temples Burn
+  - Danger
+  Exists: 1
+--- !u!114 &-5901701270167407921
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Temple_Fire 3D 3/Temples Off
+  m_EditorClassIdentifier: 
+  Name: Temples Off
+  StudioPath: 
+  Min: 0
+  Max: 5
+  Default: 0
+  ID:
+    data1: 2159653708
+    data2: 987023635
+  Type: 1
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-5075865123196048690
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Temple_Fire 3D 5/Level State
+  m_EditorClassIdentifier: 
+  Name: Level State
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 179770722
+    data2: 858155409
+  Type: 2
+  IsGlobal: 1
+  Labels:
+  - All Temples Burn
+  - Danger
+  Exists: 1
+--- !u!114 &-5067131560524411601
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Temple_Off 4/Temples Off
+  m_EditorClassIdentifier: 
+  Name: Temples Off
+  StudioPath: 
+  Min: 0
+  Max: 5
+  Default: 0
+  ID:
+    data1: 2159653708
+    data2: 987023635
+  Type: 1
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-4958204603067606057
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Interactive_Music work/Game State
+  m_EditorClassIdentifier: 
+  Name: Game State
+  StudioPath: 
+  Min: 0
+  Max: 3
+  Default: 0
+  ID:
+    data1: 2281162550
+    data2: 441876349
+  Type: 1
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-3659791368096425707
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Temple_Off 4/Level State
+  m_EditorClassIdentifier: 
+  Name: Level State
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 179770722
+    data2: 858155409
+  Type: 2
+  IsGlobal: 1
+  Labels:
+  - All Temples Burn
+  - Danger
+  Exists: 1
+--- !u!114 &-3052756846563943289
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Level_Music_InteractiveCopy/Game State
+  m_EditorClassIdentifier: 
+  Name: Game State
+  StudioPath: 
+  Min: 0
+  Max: 3
+  Default: 0
+  ID:
+    data1: 2281162550
+    data2: 441876349
+  Type: 1
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &-2156123144943846670
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Level_Music_InteractiveCopy
+  m_EditorClassIdentifier: 
+  Path: event:/Level_Music_InteractiveCopy
+  Guid:
+    Data1: -1975253290
+    Data2: 1186978472
+    Data3: 1732217222
+    Data4: 798751152
+  Banks:
+  - {fileID: -9145144023632458027}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -3052756846563943289}
+  - {fileID: 4905349463881432091}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 109090
+--- !u!114 &-916952383052177001
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Temple_Fire 3D 4
+  m_EditorClassIdentifier: 
+  Path: event:/Temple_Fire 3D 4
+  Guid:
+    Data1: 1930450020
+    Data2: 1209406126
+    Data3: -2044478305
+    Data4: -1937185454
+  Banks:
+  - {fileID: -9145144023632458027}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -8624124176533558034}
+  - {fileID: 3093832718738859228}
+  MinDistance: 1
+  MaxDistance: 60
+  Length: 24670
+--- !u!114 &-416100766376560696
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Interactive_Music work/Level State
+  m_EditorClassIdentifier: 
+  Name: Level State
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 179770722
+    data2: 858155409
+  Type: 2
+  IsGlobal: 1
+  Labels:
+  - All Temples Burn
+  - Danger
+  Exists: 1
+--- !u!114 &-339086255152310954
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/Menu_Music
+  m_EditorClassIdentifier: 
+  Path: event:/Music/Menu_Music
+  Guid:
+    Data1: 1482058720
+    Data2: 1324830829
+    Data3: 1101721501
+    Data4: -2141580886
+  Banks:
+  - {fileID: 4225110734259327676}
+  - {fileID: -9145144023632458027}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 87272
+--- !u!114 &-187445976084007187
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Interactive_Music work/Temples Off
+  m_EditorClassIdentifier: 
+  Name: Temples Off
+  StudioPath: 
+  Min: 0
+  Max: 5
+  Default: 0
+  ID:
+    data1: 2159653708
+    data2: 987023635
+  Type: 1
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
+  m_Name: FMODStudioCache
+  m_EditorClassIdentifier: 
+  EditorBanks:
+  - {fileID: -7461127096381103113}
+  - {fileID: 6571964016942388298}
+  - {fileID: 5505285307271191364}
+  - {fileID: 4225110734259327676}
+  - {fileID: -9145144023632458027}
+  EditorEvents:
+  - {fileID: -8986486506556250971}
+  - {fileID: 3632765957580332499}
+  - {fileID: -8729320509133124332}
+  - {fileID: -339086255152310954}
+  - {fileID: 695033450856748208}
+  - {fileID: 3446586190818372240}
+  - {fileID: 6562327098751966516}
+  - {fileID: -8559141746244257482}
+  - {fileID: -916952383052177001}
+  - {fileID: 6079925713859134944}
+  - {fileID: -8756320055041281923}
+  - {fileID: -8710668528370125136}
+  - {fileID: 6851678411456789229}
+  - {fileID: -7432701307102624925}
+  - {fileID: 5137218660710237504}
+  - {fileID: 6532252342385451349}
+  - {fileID: 5169114482069409198}
+  - {fileID: 1098605475520088803}
+  - {fileID: 2496370117285767022}
+  - {fileID: 2485311366319921852}
+  - {fileID: 2353741108875389190}
+  - {fileID: -8930970577012397470}
+  - {fileID: 3898837915481372999}
+  - {fileID: -2156123144943846670}
+  EditorParameters:
+  - {fileID: 8267032474482663369}
+  - {fileID: 7503470746125520455}
+  - {fileID: 8719464007081808742}
+  MasterBanks:
+  - {fileID: 6571964016942388298}
+  StringsBanks:
+  - {fileID: -7461127096381103113}
+  cacheTime: 638474803814801475
+  cacheVersion: 131609
+--- !u!114 &695033450856748208
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Temple_Fire 2D
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Temple_Fire 2D
+  Guid:
+    Data1: 953301702
+    Data2: 1192782022
+    Data3: 2117123742
+    Data4: -81467906
+  Banks:
+  - {fileID: 5505285307271191364}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 24670
+--- !u!114 &1098605475520088803
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Temple_Off 3
+  m_EditorClassIdentifier: 
+  Path: event:/Temple_Off 3
+  Guid:
+    Data1: 903514110
+    Data2: 1332998788
+    Data3: 2034324153
+    Data4: 1585118917
+  Banks:
+  - {fileID: -9145144023632458027}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters:
+  - {fileID: -6720140666702292481}
+  - {fileID: 4887257180070864859}
+  MinDistance: 1
+  MaxDistance: 600
+  Length: 8250
+--- !u!114 &1958975447027098203
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Temple_Off 5/Level State
+  m_EditorClassIdentifier: 
+  Name: Level State
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 179770722
+    data2: 858155409
+  Type: 2
+  IsGlobal: 1
+  Labels:
+  - All Temples Burn
+  - Danger
+  Exists: 1
+--- !u!114 &2132964815654454508
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Temple_Fire 3D 2/Level State
+  m_EditorClassIdentifier: 
+  Name: Level State
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 179770722
+    data2: 858155409
+  Type: 2
+  IsGlobal: 1
+  Labels:
+  - All Temples Burn
+  - Danger
+  Exists: 1
+--- !u!114 &2178909708014494840
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Level_Music_Interactive/Level State
+  m_EditorClassIdentifier: 
+  Name: Level State
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 179770722
+    data2: 858155409
+  Type: 2
+  IsGlobal: 1
+  Labels:
+  - All Temples Burn
+  - Danger
+  Exists: 1
+--- !u!114 &2353741108875389190
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/Interactive_Music work
+  m_EditorClassIdentifier: 
+  Path: event:/Music/Interactive_Music work
+  Guid:
+    Data1: 1925417287
+    Data2: 1292241486
+    Data3: 45266096
+    Data4: -2135554661
+  Banks:
+  - {fileID: -9145144023632458027}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -187445976084007187}
+  - {fileID: -4958204603067606057}
+  - {fileID: -416100766376560696}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 235909
+--- !u!114 &2485311366319921852
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Yokai_Zone
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Yokai_Zone
+  Guid:
+    Data1: 207334977
+    Data2: 1216440177
+    Data3: 2065847459
+    Data4: 526736959
+  Banks:
+  - {fileID: 5505285307271191364}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 15000
+--- !u!114 &2496370117285767022
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Steps
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Steps
+  Guid:
+    Data1: 651325351
+    Data2: 1193057590
+    Data3: -1743496291
+    Data4: -167432981
+  Banks:
+  - {fileID: 5505285307271191364}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 340
+--- !u!114 &2633373432299021484
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Temple_Off 1/Temples Off
+  m_EditorClassIdentifier: 
+  Name: Temples Off
+  StudioPath: 
+  Min: 0
+  Max: 5
+  Default: 0
+  ID:
+    data1: 2159653708
+    data2: 987023635
+  Type: 1
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &3093832718738859228
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Temple_Fire 3D 4/Level State
+  m_EditorClassIdentifier: 
+  Name: Level State
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 179770722
+    data2: 858155409
+  Type: 2
+  IsGlobal: 1
+  Labels:
+  - All Temples Burn
+  - Danger
+  Exists: 1
+--- !u!114 &3446586190818372240
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Temple_Fire 3D
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Temple_Fire 3D
+  Guid:
+    Data1: 292376541
+    Data2: 1233615389
+    Data3: -414088770
+    Data4: 1084838577
+  Banks:
+  - {fileID: 5505285307271191364}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 35
+  Length: 24670
+--- !u!114 &3632765957580332499
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/Pause_Music
+  m_EditorClassIdentifier: 
+  Path: event:/Music/Pause_Music
+  Guid:
+    Data1: -1315357646
+    Data2: 1254576928
+    Data3: 1421098886
+    Data4: 1770559518
+  Banks:
+  - {fileID: 4225110734259327676}
+  - {fileID: -9145144023632458027}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 87272
+--- !u!114 &3789064631367068421
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Temple_Fire 3D 3/Level State
+  m_EditorClassIdentifier: 
+  Name: Level State
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 179770722
+    data2: 858155409
+  Type: 2
+  IsGlobal: 1
+  Labels:
+  - All Temples Burn
+  - Danger
+  Exists: 1
+--- !u!114 &3898837915481372999
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/vystrel2
+  m_EditorClassIdentifier: 
+  Path: event:/vystrel2
+  Guid:
+    Data1: -1048344480
+    Data2: 1226288315
+    Data3: 1847783568
+    Data4: -1483593428
+  Banks:
+  - {fileID: -9145144023632458027}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 548
+--- !u!114 &4225110734259327676
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/MuzAudio.bank
+  m_EditorClassIdentifier: 
+  Path: ProjectFMOD/JapaneseGodFMOD/Build/Desktop/MuzAudio.bank
+  Name: MuzAudio
+  StudioPath: bank:/MuzAudio
+  lastModified: 638474803814234315
+  FileSizes:
+  - Name: Desktop
+    Value: 4221184
+  Exists: 1
+--- !u!114 &4532953727104662629
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Interactive_Music/Temples Off
+  m_EditorClassIdentifier: 
+  Name: Temples Off
+  StudioPath: 
+  Min: 0
+  Max: 5
+  Default: 0
+  ID:
+    data1: 2159653708
+    data2: 987023635
+  Type: 1
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &4566893876479089237
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Temple_Fire 3D 1/Temples Off
+  m_EditorClassIdentifier: 
+  Name: Temples Off
+  StudioPath: 
+  Min: 0
+  Max: 5
+  Default: 0
+  ID:
+    data1: 2159653708
+    data2: 987023635
+  Type: 1
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &4887257180070864859
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Temple_Off 3/Level State
+  m_EditorClassIdentifier: 
+  Name: Level State
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 179770722
+    data2: 858155409
+  Type: 2
+  IsGlobal: 1
+  Labels:
+  - All Temples Burn
+  - Danger
+  Exists: 1
+--- !u!114 &4905349463881432091
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Level_Music_InteractiveCopy/Temples Off
+  m_EditorClassIdentifier: 
+  Name: Temples Off
+  StudioPath: 
+  Min: 0
+  Max: 5
+  Default: 0
+  ID:
+    data1: 2159653708
+    data2: 987023635
+  Type: 1
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &5137218660710237504
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Temple_Off 2
+  m_EditorClassIdentifier: 
+  Path: event:/Temple_Off 2
+  Guid:
+    Data1: -822803017
+    Data2: 1220955741
+    Data3: -1323888744
+    Data4: -812942596
+  Banks:
+  - {fileID: -9145144023632458027}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters:
+  - {fileID: 8866373989659293221}
+  - {fileID: 7235394962662993824}
+  MinDistance: 1
+  MaxDistance: 600
+  Length: 8250
+--- !u!114 &5169114482069409198
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Temple_Off 5
+  m_EditorClassIdentifier: 
+  Path: event:/Temple_Off 5
+  Guid:
+    Data1: 1457375221
+    Data2: 1316120322
+    Data3: 257622938
+    Data4: 1777891250
+  Banks:
+  - {fileID: -9145144023632458027}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters:
+  - {fileID: -7547099531152589178}
+  - {fileID: 1958975447027098203}
+  MinDistance: 1
+  MaxDistance: 600
+  Length: 8250
+--- !u!114 &5505285307271191364
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/EffectAudio.bank
+  m_EditorClassIdentifier: 
+  Path: ProjectFMOD/JapaneseGodFMOD/Build/Desktop/EffectAudio.bank
+  Name: EffectAudio
+  StudioPath: bank:/EffectAudio
+  lastModified: 638474803813466419
+  FileSizes:
+  - Name: Desktop
+    Value: 727520
+  Exists: 1
+--- !u!114 &6079925713859134944
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Temple_Fire 3D 5
+  m_EditorClassIdentifier: 
+  Path: event:/Temple_Fire 3D 5
+  Guid:
+    Data1: 1383403132
+    Data2: 1091334943
+    Data3: -852101502
+    Data4: -1679818091
+  Banks:
+  - {fileID: -9145144023632458027}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 8415774771200240780}
+  - {fileID: -5075865123196048690}
+  MinDistance: 1
+  MaxDistance: 60
+  Length: 24670
+--- !u!114 &6532252342385451349
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Temple_Off 1
+  m_EditorClassIdentifier: 
+  Path: event:/Temple_Off 1
+  Guid:
+    Data1: 1442932944
+    Data2: 1146261258
+    Data3: -1916750670
+    Data4: 72481817
+  Banks:
+  - {fileID: -9145144023632458027}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters:
+  - {fileID: 2633373432299021484}
+  - {fileID: 8570468057749734449}
+  MinDistance: 1
+  MaxDistance: 600
+  Length: 8250
+--- !u!114 &6562327098751966516
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Temple_Fire 3D 1
+  m_EditorClassIdentifier: 
+  Path: event:/Temple_Fire 3D 1
+  Guid:
+    Data1: 1700427282
+    Data2: 1133003341
+    Data3: -996121930
+    Data4: -461901740
+  Banks:
+  - {fileID: -9145144023632458027}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 4566893876479089237}
+  - {fileID: -6558367291175229736}
+  MinDistance: 1
+  MaxDistance: 60
+  Length: 24670
+--- !u!114 &6571964016942388298
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: ProjectFMOD/JapaneseGodFMOD/Build/Desktop/Master.bank
+  Name: Master
+  StudioPath: bank:/Master
+  lastModified: 638474803813615961
+  FileSizes:
+  - Name: Desktop
+    Value: 4858
+  Exists: 1
+--- !u!114 &6851678411456789229
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/Level_Music_Interactive
+  m_EditorClassIdentifier: 
+  Path: event:/Music/Level_Music_Interactive
+  Guid:
+    Data1: 1094790504
+    Data2: 1154300790
+    Data3: 1262675376
+    Data4: -66600445
+  Banks:
+  - {fileID: 4225110734259327676}
+  - {fileID: -9145144023632458027}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 8645580639699636778}
+  - {fileID: 2178909708014494840}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 155454
+--- !u!114 &7235394962662993824
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Temple_Off 2/Level State
+  m_EditorClassIdentifier: 
+  Name: Level State
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 179770722
+    data2: 858155409
+  Type: 2
+  IsGlobal: 1
+  Labels:
+  - All Temples Burn
+  - Danger
+  Exists: 1
+--- !u!114 &7503470746125520455
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Game State
+  m_EditorClassIdentifier: 
+  Name: Game State
+  StudioPath: parameter:/Game State
+  Min: 0
+  Max: 3
+  Default: 0
+  ID:
+    data1: 2281162550
+    data2: 441876349
+  Type: 1
+  IsGlobal: 1
+  Labels:
+  - Menu
+  - Level
+  - Pause
+  - Lose
+  Exists: 1
+--- !u!114 &8267032474482663369
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Temples Off
+  m_EditorClassIdentifier: 
+  Name: Temples Off
+  StudioPath: parameter:/Temples Off
+  Min: 0
+  Max: 5
+  Default: 0
+  ID:
+    data1: 2159653708
+    data2: 987023635
+  Type: 1
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &8415774771200240780
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Temple_Fire 3D 5/Temples Off
+  m_EditorClassIdentifier: 
+  Name: Temples Off
+  StudioPath: 
+  Min: 0
+  Max: 5
+  Default: 0
+  ID:
+    data1: 2159653708
+    data2: 987023635
+  Type: 1
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &8570468057749734449
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Temple_Off 1/Level State
+  m_EditorClassIdentifier: 
+  Name: Level State
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 179770722
+    data2: 858155409
+  Type: 2
+  IsGlobal: 1
+  Labels:
+  - All Temples Burn
+  - Danger
+  Exists: 1
+--- !u!114 &8645580639699636778
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Level_Music_Interactive/Temples Off
+  m_EditorClassIdentifier: 
+  Name: Temples Off
+  StudioPath: 
+  Min: 0
+  Max: 5
+  Default: 0
+  ID:
+    data1: 2159653708
+    data2: 987023635
+  Type: 1
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &8719464007081808742
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Level State
+  m_EditorClassIdentifier: 
+  Name: Level State
+  StudioPath: parameter:/Level State
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 179770722
+    data2: 858155409
+  Type: 2
+  IsGlobal: 1
+  Labels:
+  - All Temples Burn
+  - Danger
+  Exists: 1
+--- !u!114 &8866373989659293221
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Temple_Off 2/Temples Off
+  m_EditorClassIdentifier: 
+  Name: Temples Off
+  StudioPath: 
+  Min: 0
+  Max: 5
+  Default: 0
+  ID:
+    data1: 2159653708
+    data2: 987023635
+  Type: 1
+  IsGlobal: 1
+  Labels: []
+  Exists: 1
+--- !u!114 &9166037293845704665
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Interactive_Music/Level State
+  m_EditorClassIdentifier: 
+  Name: Level State
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 179770722
+    data2: 858155409
+  Type: 2
+  IsGlobal: 1
+  Labels:
+  - All Temples Burn
+  - Danger
+  Exists: 1

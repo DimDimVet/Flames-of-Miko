@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="MixerGroup" id="{c6f7fbcf-3a09-4805-8841-88932bf4e0fc}">
+		<property name="volume">
+			<value>-9</value>
+		</property>
+		<property name="name">
+			<value>Music Filtered</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{f408332c-e166-452a-9d80-0544bc11f292}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{b634c7f4-8943-4f1d-a4ed-77810a44df10}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{0217bd46-af08-4f29-95d0-d2331b56dc06}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{f408332c-e166-452a-9d80-0544bc11f292}">
+		<relationship name="effects">
+			<destination>{d72704ea-86ef-4b7e-9ca4-919dfe3ed7b2}</destination>
+			<destination>{a0af82c2-c40b-4917-b1cf-4fee2d6c5853}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{b634c7f4-8943-4f1d-a4ed-77810a44df10}" />
+	<object class="MixerBusFader" id="{d72704ea-86ef-4b7e-9ca4-919dfe3ed7b2}" />
+	<object class="MultibandEqEffect" id="{a0af82c2-c40b-4917-b1cf-4fee2d6c5853}">
+		<property name="frequencyA">
+			<value>22000</value>
+		</property>
+		<property name="qualityA">
+			<value>0.699999988</value>
+		</property>
+		<relationship name="modulators">
+			<destination>{643c8ec2-a798-49ce-a5c5-0359ab2afe52}</destination>
+		</relationship>
+	</object>
+	<object class="SidechainModulator" id="{643c8ec2-a798-49ce-a5c5-0359ab2afe52}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>frequencyA</value>
+		</property>
+		<property name="levelMode">
+			<value>1</value>
+		</property>
+		<property name="amount">
+			<value>-100</value>
+		</property>
+		<property name="minimumThreshold">
+			<value>-60</value>
+		</property>
+		<property name="maximumThreshold">
+			<value>-10</value>
+		</property>
+		<relationship name="sidechains">
+			<destination>{62a9184d-9493-4108-ae41-377d334e7a89}</destination>
+		</relationship>
+	</object>
+</objects>

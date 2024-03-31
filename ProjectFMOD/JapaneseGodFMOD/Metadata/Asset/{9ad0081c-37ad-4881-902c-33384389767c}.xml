@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="EncodableAsset" id="{9ad0081c-37ad-4881-902c-33384389767c}">
+		<property name="assetPath">
+			<value>SFX/Fire Temple/</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{7cb3a0fd-87a3-46e2-af12-9dc9d12771c7}</destination>
+		</relationship>
+	</object>
+</objects>

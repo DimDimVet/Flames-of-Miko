@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{e9b584e4-ff64-4629-8f45-6c09f86e889e}">
+		<property name="assetPath">
+			<value>SFX/Miko_Var/Go be the priest_v1.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>3.3634583333333334</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{7cb3a0fd-87a3-46e2-af12-9dc9d12771c7}</destination>
+		</relationship>
+	</object>
+</objects>

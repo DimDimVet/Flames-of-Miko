@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="MixerGroup" id="{fa3d2319-86c4-4522-bdbb-2ab71b51acf9}">
+		<property name="volume">
+			<value>-9</value>
+		</property>
+		<property name="name">
+			<value>Music</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{cacd8a56-cc68-4550-b5fd-8a8c1be347cd}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{66687d8c-2e33-45c2-a2a0-899cd10def96}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{0217bd46-af08-4f29-95d0-d2331b56dc06}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{cacd8a56-cc68-4550-b5fd-8a8c1be347cd}">
+		<relationship name="effects">
+			<destination>{a408d149-1c8d-4ef0-b64c-02779316eebb}</destination>
+			<destination>{3e29ced2-4bb2-4b57-832a-1a3563d05fc4}</destination>
+			<destination>{80c10c1e-e898-4d19-9226-362acb1257e9}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{66687d8c-2e33-45c2-a2a0-899cd10def96}" />
+	<object class="MixerBusFader" id="{a408d149-1c8d-4ef0-b64c-02779316eebb}" />
+	<object class="CompressorEffect" id="{3e29ced2-4bb2-4b57-832a-1a3563d05fc4}">
+		<property name="threshold">
+			<value>-18</value>
+		</property>
+		<property name="ratio">
+			<value>2</value>
+		</property>
+		<property name="attackTime">
+			<value>1</value>
+		</property>
+		<property name="releaseTime">
+			<value>30</value>
+		</property>
+		<relationship name="sidechains">
+			<destination>{9b26b649-ac5d-4efc-b5dd-2377abd3c977}</destination>
+		</relationship>
+	</object>
+	<object class="MultibandEqEffect" id="{80c10c1e-e898-4d19-9226-362acb1257e9}">
+		<property name="frequencyA">
+			<value>22000</value>
+		</property>
+		<property name="qualityA">
+			<value>0.100000001</value>
+		</property>
+		<relationship name="modulators">
+			<destination>{6e2c491a-9167-4a9e-a91d-a53a6f1dfb22}</destination>
+		</relationship>
+	</object>
+	<object class="SidechainModulator" id="{6e2c491a-9167-4a9e-a91d-a53a6f1dfb22}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>frequencyA</value>
+		</property>
+		<property name="levelMode">
+			<value>1</value>
+		</property>
+		<property name="amount">
+			<value>-100</value>
+		</property>
+		<property name="minimumThreshold">
+			<value>-40</value>
+		</property>
+		<relationship name="sidechains">
+			<destination>{62a9184d-9493-4108-ae41-377d334e7a89}</destination>
+		</relationship>
+	</object>
+</objects>

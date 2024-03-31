@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="MixerMaster" id="{0217bd46-af08-4f29-95d0-d2331b56dc06}">
+		<property name="name">
+			<value>Master Bus</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{eb5652f9-5261-491a-b5ff-921ba9a32bc4}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{e1f32127-6497-41f1-844e-6b6050d535d2}</destination>
+		</relationship>
+		<relationship name="mixer">
+			<destination>{4123bf59-47bf-4c13-ab35-044f55d48c40}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{eb5652f9-5261-491a-b5ff-921ba9a32bc4}">
+		<relationship name="effects">
+			<destination>{bc3a08ae-b837-4a50-9517-9483a78698ba}</destination>
+			<destination>{aa4a02a6-2943-4e74-9434-3a3489de2e5f}</destination>
+			<destination>{6349f0a3-2fff-4cbf-a8dd-6dd56c91c093}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{e1f32127-6497-41f1-844e-6b6050d535d2}">
+		<property name="overridingOutputFormat">
+			<value>2</value>
+		</property>
+	</object>
+	<object class="MixerBusFader" id="{bc3a08ae-b837-4a50-9517-9483a78698ba}" />
+	<object class="CompressorEffect" id="{aa4a02a6-2943-4e74-9434-3a3489de2e5f}">
+		<property name="threshold">
+			<value>-20</value>
+		</property>
+		<property name="ratio">
+			<value>2</value>
+		</property>
+		<property name="attackTime">
+			<value>300</value>
+		</property>
+		<property name="releaseTime">
+			<value>300</value>
+		</property>
+	</object>
+	<object class="LoudnessMeter" id="{6349f0a3-2fff-4cbf-a8dd-6dd56c91c093}" />
+</objects>

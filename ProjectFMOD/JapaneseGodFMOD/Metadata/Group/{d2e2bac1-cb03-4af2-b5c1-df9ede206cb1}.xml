@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="MixerGroup" id="{d2e2bac1-cb03-4af2-b5c1-df9ede206cb1}">
+		<property name="volume">
+			<value>-9</value>
+		</property>
+		<property name="name">
+			<value>Yokai</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{1bfe2fb6-fb2e-41f5-9e6f-c8a9f3d3e2eb}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{1e7d4390-86ef-483f-a3a2-6428d121ae33}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{0217bd46-af08-4f29-95d0-d2331b56dc06}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{1bfe2fb6-fb2e-41f5-9e6f-c8a9f3d3e2eb}">
+		<relationship name="effects">
+			<destination>{37f166ad-eda6-4202-b68e-85e953772867}</destination>
+			<destination>{62a9184d-9493-4108-ae41-377d334e7a89}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{1e7d4390-86ef-483f-a3a2-6428d121ae33}" />
+	<object class="MixerBusFader" id="{37f166ad-eda6-4202-b68e-85e953772867}" />
+	<object class="Sidechain" id="{62a9184d-9493-4108-ae41-377d334e7a89}" />
+</objects>

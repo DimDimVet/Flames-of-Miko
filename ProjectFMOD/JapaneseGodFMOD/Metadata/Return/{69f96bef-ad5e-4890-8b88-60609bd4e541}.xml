@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="MixerReturn" id="{69f96bef-ad5e-4890-8b88-60609bd4e541}">
+		<property name="name">
+			<value>Filter Zone</value>
+		</property>
+		<relationship name="automators">
+			<destination>{9958a9c6-0a6a-46b7-96aa-6f1c3b07d1a3}</destination>
+		</relationship>
+		<relationship name="effectChain">
+			<destination>{e96d760c-7c72-406c-a6d2-d71b420ca4f5}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{1f839d86-a069-4ce1-88ae-1a43d6272e51}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{0217bd46-af08-4f29-95d0-d2331b56dc06}</destination>
+		</relationship>
+	</object>
+	<object class="Automator" id="{9958a9c6-0a6a-46b7-96aa-6f1c3b07d1a3}">
+		<property name="nameOfPropertyBeingAutomated">
+			<value>volume</value>
+		</property>
+		<relationship name="automationCurves">
+			<destination>{5668ac2d-58d3-44b0-93fd-044ff4d77db3}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{e96d760c-7c72-406c-a6d2-d71b420ca4f5}">
+		<relationship name="effects">
+			<destination>{8d22d1d1-8b62-465b-aa0d-31cab7d8f6c1}</destination>
+			<destination>{a17c6698-3a8e-49f5-a08c-c16554bb0cbc}</destination>
+			<destination>{bcfab004-25bd-4c56-99ea-1ef63af0c0b9}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{1f839d86-a069-4ce1-88ae-1a43d6272e51}" />
+	<object class="AutomationCurve" id="{5668ac2d-58d3-44b0-93fd-044ff4d77db3}">
+		<relationship name="parameter">
+			<destination>{c9b513a3-6864-4ae3-82c1-63561780514e}</destination>
+		</relationship>
+		<relationship name="automationPoints">
+			<destination>{ca08a013-6cad-40e4-9490-cca84a70d446}</destination>
+			<destination>{35cbde0d-5faf-467e-bf1c-61887fa5c080}</destination>
+			<destination>{5acdbeef-132e-4ee6-989a-c2b2254b5a72}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusFader" id="{8d22d1d1-8b62-465b-aa0d-31cab7d8f6c1}" />
+	<object class="CompressorEffect" id="{a17c6698-3a8e-49f5-a08c-c16554bb0cbc}">
+		<property name="threshold">
+			<value>-18</value>
+		</property>
+		<property name="ratio">
+			<value>2</value>
+		</property>
+		<property name="attackTime">
+			<value>1</value>
+		</property>
+		<property name="releaseTime">
+			<value>30</value>
+		</property>
+	</object>
+	<object class="MultibandEqEffect" id="{bcfab004-25bd-4c56-99ea-1ef63af0c0b9}">
+		<property name="frequencyA">
+			<value>22000</value>
+		</property>
+		<property name="qualityA">
+			<value>0.299999982</value>
+		</property>
+		<relationship name="modulators">
+			<destination>{1bd13e70-98a6-4e78-aafe-26b3ded96157}</destination>
+		</relationship>
+	</object>
+	<object class="AutomationPoint" id="{ca08a013-6cad-40e4-9490-cca84a70d446}">
+		<property name="position">
+			<value>1</value>
+		</property>
+		<property name="value">
+			<value>0</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{35cbde0d-5faf-467e-bf1c-61887fa5c080}">
+		<property name="position">
+			<value>2</value>
+		</property>
+		<property name="value">
+			<value>-80</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{5acdbeef-132e-4ee6-989a-c2b2254b5a72}">
+		<property name="position">
+			<value>0</value>
+		</property>
+		<property name="value">
+			<value>-80</value>
+		</property>
+	</object>
+	<object class="SidechainModulator" id="{1bd13e70-98a6-4e78-aafe-26b3ded96157}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>frequencyA</value>
+		</property>
+		<property name="levelMode">
+			<value>1</value>
+		</property>
+		<property name="amount">
+			<value>-100</value>
+		</property>
+		<property name="attackTime">
+			<value>10</value>
+		</property>
+		<property name="releaseTime">
+			<value>500</value>
+		</property>
+		<property name="minimumThreshold">
+			<value>-50</value>
+		</property>
+		<property name="maximumThreshold">
+			<value>-15</value>
+		</property>
+		<relationship name="sidechains">
+			<destination>{62a9184d-9493-4108-ae41-377d334e7a89}</destination>
+		</relationship>
+	</object>
+</objects>
