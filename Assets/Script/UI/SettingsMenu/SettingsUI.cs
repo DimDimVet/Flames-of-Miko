@@ -19,9 +19,9 @@ namespace UI
         [SerializeField] protected int overSceneIndex = 3;
 
         [Header("Мин ширина(width)")]
-        [SerializeField] protected int[] minWidth /*= 1280*/;
+        [SerializeField] protected int minWidth = 1280;
         [Header("Мин высота(height)")]
-        [SerializeField] protected int[] minHeight /*= 1024*/;
+        [SerializeField] protected int minHeight = 1024;
 
         [Header("Панели")]
         [SerializeField] protected GameObject groundPanel;

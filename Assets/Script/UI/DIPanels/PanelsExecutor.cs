@@ -10,8 +10,8 @@ namespace UI
         public float MuzVol;
         public float EfectVol;
 
-        public int[] MinWidth;
-        public int[] MinHeight;
+        public int MinWidth;
+        public int MinHeight;
     }
     public struct PanelsLvl
     {
@@ -238,7 +238,7 @@ namespace UI
 
             for (int i = 0; i < tempResolutions.Length; i++)
             {
-                if (RezultWidth(tempResolutions[i].width) & RezulHeight(tempResolutions[i].height) /*& tempResolutions[i].refreshRateRatio.value == currentResolution.refreshRateRatio.value*/)
+                if (tempResolutions[i].width >= winAudioSetting.MinWidth & tempResolutions[i].height >= winAudioSetting.MinHeight & tempResolutions[i].refreshRateRatio.value == currentResolution.refreshRateRatio.value)
                 {
                     resolutions = CreatResolution(tempResolutions[i], resolutions);
                     textScreen.Add($"{tempResolutions[i].width}x{tempResolutions[i].height} {(int)tempResolutions[i].refreshRateRatio.value}Ãö");
@@ -253,22 +253,7 @@ namespace UI
                 }
             }
         }
-        private bool RezultWidth(int inWidth)
-        {
-            for (int i = 0; i < winAudioSetting.MinWidth.Length; i++)
-            {
-                if (winAudioSetting.MinWidth[i] == inWidth) { return true; }
-            }
-            return false;
-        }
-        private bool RezulHeight(int inHeight)
-        {
-            for (int i = 0; i < winAudioSetting.MinHeight.Length; i++)
-            {
-                if (winAudioSetting.MinHeight[i] == inHeight) { return true; }
-            }
-            return false;
-        }
+
         private Resolution[] CreatResolution(Resolution intObject, Resolution[] massivObject)
         {
             if (massivObject != null)
@@ -288,8 +273,8 @@ namespace UI
         {
             if (_currentScreen.width == 0 & _currentScreen.height == 0)
             {
-                _currentScreen.width = winAudioSetting.MinWidth[0];
-                _currentScreen.height = winAudioSetting.MinHeight[0];
+                _currentScreen.width = winAudioSetting.MinWidth;
+                _currentScreen.height = winAudioSetting.MinHeight;
             }
             onSetResolution?.Invoke(_currentScreen);
         }
